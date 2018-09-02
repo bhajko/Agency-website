@@ -12,8 +12,16 @@ const scroll = document.querySelectorAll('.scrollspy');
 M.ScrollSpy.init(scroll, {});
 
 const modal = document.querySelector('.modal');
-M.Modal.init(modal, {
-    opacity: 0.5,
-    inDuration: 500,
-    outDuration: 500
-});
+M.Modal.init(modal, {});
+
+const codingVid = document.querySelector('.coding-vid');
+
+function pause() {
+    codingVid.pause();
+}
+
+function play() {
+    if (codingVid.paused) {
+        codingVid.play();
+    }
+}

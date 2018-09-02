@@ -43,3 +43,8 @@ img.circle {
     color: rgba(0, 0, 0, 0.5);
     transition: .5s ease;
 }
+
+video {
+    max-height: 335px;
+    max-width: 511px;
+}
