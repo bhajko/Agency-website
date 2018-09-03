@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 17px;
+}
+
+.nav-wrapper li a {
+    font-size: 18px;
+}
+
+.brand-logo {
+    padding-top: 7px !important;
+    padding-right: 50px !important;
+}
+
+.center-align,
+.right-align,
+.left-align {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 3px;
+    width: 600px !important;
+    margin: auto;
+}
+
+img.circle.materialboxed {
+    display: inline;
+    padding: 15px;
+}
+
+img.company {
+    padding: 20px;
+}
+
+img.company:hover {
+    transform: scale(1.2);
+    transition: all .7s;
+}
+
+.fab.fa-3x {
+    margin: 5px 10px;
+}
+
+.fab.fa-3x:hover {
+    color: rgba(0, 0, 0, 0.5);
+    transition: .5s ease;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.section i {
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
+
+.input-field input[type=text]:focus+label {
+    color: #FF5722 !important;
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #FF5722 !important;
+    box-shadow: 0 1px 0 0 #FF5722 !important;
+}
+
+.input-field .prefix.active {
+    color: #FF5722;
+}
+
+.input-field textarea:focus+label {
+    color: #FF5722 !important;
+}
+
+.input-field textarea:focus {
+    border-bottom: 1px solid #FF5722 !important;
+    box-shadow: 0 1px 0 0 #FF5722 !important;
+}
