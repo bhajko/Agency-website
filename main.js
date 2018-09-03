@@ -25,3 +25,11 @@ function play() {
         videos.play();
     }
 }
+
+function touchPlay() {
+    videos.addEventListener('touchstart', play());
+}
+
+function touchPause() {
+    videos.addEventListener('touchend', pause());
+}
