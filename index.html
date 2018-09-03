@@ -74,21 +74,21 @@
         <ul class="slides">
             <li>
                 <img src="img/img1.jpeg">
-                <div class="caption center-align">
+                <div class="caption center-align hide-on-small-only">
                     <h3>Szoftverfejlesztés</h3>
-                    <h5 class="light white-text hide-on-small-only">IOS, Android, Desktop</h5>
+                    <h5 class="light white-text">IOS, Android, Desktop</h5>
                 </div>
             </li>
             <li>
                 <img src="img/img2.jpeg">
-                <div class="caption center-align">
+                <div class="caption center-align hide-on-small-only">
                     <h3>IT tanácsadás</h3>
                     <h5 class="light white-text">Komplex ICT megoldások tervezése</h5>
                 </div>
             </li>
             <li>
                 <img src="img/img3.jpg">
-                <div class="caption center-align">
+                <div class="caption center-align hide-on-small-only">
                     <h3>Grafikai tervezés</h3>
                     <h5 class="light white-text">Modern trendeknek megfelelően</h5>
                 </div>
@@ -152,7 +152,7 @@
 
                 <br>
                 <div class="col s12 m10 offset-m1 l5 offset-l1">
-                    <div class="card">
+                    <div class="card hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
                             <video class="vid responsive-video" src="video/coding-vid.mp4" loop="auto" preload="auto"
                                 onmouseover="play()" onmouseout="pause()"></video>
@@ -174,7 +174,7 @@
                     </div>
                 </div>
                 <div class="col s12 m10 offset-m1 l5">
-                    <div class="card">
+                    <div class="card hoverable">
                         <div class="card-image">
                             <video class="vid responsive-video" src="video/meeting-vid.mp4" loop="auto" preload="auto"
                                 onmouseover="play()" onmouseout="pause()"></video>
@@ -221,7 +221,7 @@
             </div>
             <div class="row">
                 <div class="col s12 m10 offset-m1 l5 offset-l1">
-                    <div class="card">
+                    <div class="card hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
                             <video class="vid responsive-video" src="video/working-vid.mp4" loop="auto" preload="auto"
                                 onmouseover="play()" onmouseout="pause()"></video>
@@ -243,7 +243,7 @@
                     </div>
                 </div>
                 <div class="col s12 m10 offset-m1 l5">
-                    <div class="card">
+                    <div class="card hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
                             <video class="vid responsive-video" src="video/graphics-vid.mp4" loop="auto" preload="auto"
                                 onmouseover="play()" onmouseout="pause()" muted></video>
@@ -275,8 +275,8 @@
             <div class="row grey-text text-darken-3">
                 <h3><i class="material-icons deep-orange-text medium">keyboard_arrow_left</i>Referenciák<i class="material-icons deep-orange-text medium">keyboard_arrow_right</i></h3>
                 <br>
-                <div class="col l12">
-                    <img class="responsive circle company" src="img/apple.jpg" alt="Apple">
+                <div class="col s12">
+                    <img class="circle company" src="img/apple.jpg" alt="Apple">
                     <img class="circle company" src="img/spotify.jpg" alt="Beats">
                     <img class="circle company" src="img/airbnb.jpg" alt="Airbnb">
                 </div>
@@ -291,20 +291,45 @@
             <div class="row grey-text text-darken-3 center">
                 <h3><i class="material-icons deep-orange-text medium">keyboard_arrow_left</i>Kapcsolat<i class="material-icons deep-orange-text medium">keyboard_arrow_right</i></h3>
                 <br>
-                <div class="col s12 m12 center l5 offset-l1">
-                    <div class="map-responsive">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2695.533378570005!2d19.038264915827888!3d47.49900290339745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc3da8582ae9%3A0xb5a040b0dcc9d6d8!2sBudapest%2C+F%C5%91+u.+1%2C+1011!5e0!3m2!1shu!2shu!4v1535961012510"
-                            width="500" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-                    </div>
-                </div>
-                <div class="col s12 m12 l5">
+                <div class="col s12 l5 offset-l1">
                     <div class="card-panel deep-orange white-text center">
+                        <h5>Itt érsz el minket</h5>
+                        <div>&nbsp;</div>
                         <div>&nbsp;</div>
                         <h5><i class="material-icons small">phone_iphone</i> 06 30 123 4567</h5>
                         <h5><i class="material-icons small">email</i> info@creative.com</h5>
                         <h5><i class="material-icons small">place</i> 1011 Budapest Fő utca 1.</h5>
                         <div>&nbsp;</div>
                         <div>&nbsp;</div>
+                    </div>
+                </div>
+                <div class="col s12 l5">
+                    <div class="card-panel grey lighten-3">
+                        <h5>Küldj nekünk üzenetet</h5>
+                        <div class="input-field deep-orange-text">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="icon_prefix" type="text" class="validate">
+                            <label for="icon_prefix">Név</label>
+                        </div>
+                        <div class="input-field deep-orange-text">
+                            <i class="material-icons prefix">email</i>
+                            <input id="icon_prefix" type="text" class="validate">
+                            <label for="icon_prefix">Email</label>
+                        </div>
+                        <div class="input-field deep-orange-text">
+                            <i class="material-icons prefix">email</i>
+                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <label for="textarea1">Üzenet</label>
+                        </div>
+                        <input type="submit" value="Küldés" class="btn deep-orange">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s10 offset-s1 center">
+                    <div class="map-responsive">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2695.533378570005!2d19.038264915827888!3d47.49900290339745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc3da8582ae9%3A0xb5a040b0dcc9d6d8!2sBudapest%2C+F%C5%91+u.+1%2C+1011!5e0!3m2!1shu!2shu!4v1535961012510"
+                            width="500" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -314,7 +339,7 @@
     <footer class="page-footer deep-orange">
         <div class="container">
             <div class="row">
-                <div class="col l6 s12 center">
+                <div class="col s12 l6 center">
                     <a href="/Hajkó Balázs - Önéletrajz.pdf" target="_blank">
                         <h5 class="white-text">ÁSZF</h5>
                     </a>

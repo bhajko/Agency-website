@@ -32,8 +32,8 @@ img.circle.materialboxed {
     padding: 15px;
 }
 
-.company {
-    padding: 100px;
+img.company {
+    padding: 20px;
 }
 
 img.company:hover {
@@ -68,4 +68,29 @@ img.company:hover {
 .section i {
     vertical-align: middle;
     padding-bottom: 5px;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus+label {
+    color: #FF5722 !important;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #FF5722 !important;
+    box-shadow: 0 1px 0 0 #FF5722 !important;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #FF5722;
+}
+
+.input-field textarea:focus+label {
+    color: #FF5722 !important;
+}
+
+.input-field textarea:focus {
+    border-bottom: 1px solid #FF5722 !important;
+    box-shadow: 0 1px 0 0 #FF5722 !important;
 }
