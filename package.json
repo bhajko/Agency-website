@@ -1,0 +1,22 @@
+{
+  "name": "creativeagency",
+  "version": "1.0.0",
+  "description": "Agency website",
+  "main": "main.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhajko/Agency-website.git"
+  },
+  "author": "Hajkó Balázs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bhajko/Agency-website/issues"
+  },
+  "homepage": "https://bhajko.github.io/Agency-website",
+  "dependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}
