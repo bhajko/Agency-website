@@ -27,12 +27,20 @@ p {
     margin: auto;
 }
 
-img.circle {
+img.circle.materialboxed {
+    display: inline;
     padding: 15px;
 }
 
+.team img.circle:hover {}
+
 .company {
-    border: 3px solid #444;
+    padding: 100px;
+}
+
+img.company:hover {
+    transform: scale(1.25);
+    transition: .7s all;
 }
 
 .fab.fa-3x {
@@ -47,4 +55,24 @@ img.circle {
 video {
     max-height: 335px;
     max-width: 511px;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.section i {
+    vertical-align: middle;
+    padding-bottom: 5px;
 }
