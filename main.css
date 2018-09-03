@@ -32,8 +32,6 @@ img.circle.materialboxed {
     padding: 15px;
 }
 
-.team img.circle:hover {}
-
 .company {
     padding: 100px;
 }
@@ -50,11 +48,6 @@ img.company:hover {
 .fab.fa-3x:hover {
     color: rgba(0, 0, 0, 0.5);
     transition: .5s ease;
-}
-
-video {
-    max-height: 335px;
-    max-width: 511px;
 }
 
 .map-responsive {

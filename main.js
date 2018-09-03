@@ -14,14 +14,14 @@ M.ScrollSpy.init(scroll, {});
 const modal = document.querySelector('.modal');
 M.Modal.init(modal, {});
 
-const codingVid = document.querySelector('.coding-vid');
+const videos = document.querySelector('.vid');
 
 function pause() {
-    codingVid.pause();
+    videos.pause();
 }
 
 function play() {
-    if (codingVid.paused) {
-        codingVid.play();
+    if (videos.paused) {
+        videos.play();
     }
 }
