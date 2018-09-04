@@ -96,4 +96,8 @@ img.company:hover {
     .title {
         font-size: 35px;
     }
+
+    .info {
+        font-size: 20px;
+    }
 }
