@@ -33,3 +33,6 @@ function touchPlay() {
 function touchPause() {
     videos.addEventListener('touchend', pause());
 }
+
+touchPlay();
+touchPause();
