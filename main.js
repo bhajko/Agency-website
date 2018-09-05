@@ -11,7 +11,7 @@ M.Slider.init(slider, {
 const scroll = document.querySelectorAll('.scrollspy');
 M.ScrollSpy.init(scroll, {});
 
-const modal = document.querySelector('.modal');
+const modal = document.querySelectorAll('.modal');
 M.Modal.init(modal, {});
 
 const videos = document.querySelector('.vid');
