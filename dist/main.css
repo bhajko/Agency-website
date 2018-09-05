@@ -114,3 +114,28 @@ img.company:hover {
         font-size: 20px;
     }
 }
+
+@media (min-width: 993px) and (max-width: 1315px) {
+    .brand-logo {
+        display: none !important;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1045px) {
+    a.modal-trigger {
+        font-size: 15px !important;
+        padding: 0;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1225px) {
+    span.card-title {
+        font-size: 16px !important;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1160px) {
+    .fa-3x {
+        font-size: 30px;
+    }
+}
