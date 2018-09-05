@@ -121,9 +121,9 @@ img.company:hover {
     }
 }
 
-@media (min-width: 993px) and (max-width: 1045px) {
+@media (min-width: 993px) and (max-width: 1100px) {
     a.modal-trigger {
-        font-size: 15px !important;
+        font-size: 13px !important;
         padding: 0;
     }
 }
@@ -134,7 +134,7 @@ img.company:hover {
     }
 }
 
-@media (min-width: 993px) and (max-width: 1160px) {
+@media (min-width: 993px) and (max-width: 1300px) {
     .fa-3x {
         font-size: 30px;
     }
