@@ -14,8 +14,11 @@ p {
 
 #modal2,
 #modal3 {
-    width: 500px !important;
-    overflow: hidden;
+    width: 400px !important;
+}
+
+#modal3 {
+    max-height: 600px !important;
 }
 
 .brand-logo {
@@ -137,5 +140,13 @@ img.company:hover {
 @media (min-width: 993px) and (max-width: 1300px) {
     .fa-3x {
         font-size: 30px;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 500px) {
+
+    #modal2,
+    #modal3 {
+        width: 300px !important;
     }
 }
